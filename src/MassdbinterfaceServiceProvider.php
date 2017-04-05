@@ -14,7 +14,7 @@ class MassdbinterfaceServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/routes.php');
-        $this->loadViewsFrom(__DIR__ . '/views', 'massdbinterface');
+        $this->loadViewsFrom(__DIR__ . '/Views', 'massdbinterface');
         $this->publishes([
             __DIR__.'/config/massdbinterface.php' => config_path('massdbinterface.php'),
         ]);
