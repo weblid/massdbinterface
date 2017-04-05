@@ -1,0 +1,15 @@
+{
+    "name": "weblid/massdbinterface",
+    "description": "Laravel interface to implement MassDbImporter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Barry Mason",
+            "email": "barrywebla@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+    }
+}
