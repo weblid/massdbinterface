@@ -43,7 +43,13 @@ class ImporterController extends BaseController
             $importer->ifRelationError($request->relation_errors);
         }
 
-        $importer->import();
+        try {
+            $importer->import();
+        }
+        catch(\Exception $e){
+            dd($e);
+        }
+        
 
         $rowsProcessed = $importer->logger()->getActions();
 
