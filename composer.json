@@ -15,9 +15,6 @@
     "autoload": {
         "psr-4": {
             "Weblid\\Massdbinterface\\": "src/"
-        },
-        "classmap": [
-            "tests"
-        ]
+        }
     }
 }
